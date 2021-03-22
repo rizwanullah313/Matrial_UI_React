@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 //import NavBar from './NavBar';
 //import barchartexample from './barChart.js';
 import BarChart from './barChart';
-
+import PieChart from './PieChart';
 const useStyles = makeStyles((theme) => ({
   paper: {
     width: 400,
@@ -37,8 +37,11 @@ function App() {
         </form>
         <CircularProgress value={50} />
       </Paper>  */
-      <BarChart />
       }
+      <h1>BarChart</h1>
+      <BarChart />
+      <h1>PieChart</h1>
+      <PieChart />
     </div>
   );
 }
